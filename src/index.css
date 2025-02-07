@@ -338,3 +338,66 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 843.98px) {
+  .search {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .nav-bar {
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+    height: 13rem;
+  }
+
+  .search {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  .main {
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .box {
+    width: 100%;
+    min-height: 10rem;
+    max-height: 35rem;
+  }
+
+  .summary {
+    padding: 1rem;
+  }
+
+  .summary div {
+    font-size: 1rem;
+  }
+
+  .list li {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .list h3 {
+    font-size: 1.6rem;
+  }
+
+  .btn-delete {
+    right: 1.5rem;
+    top: 3.4rem;
+  }
+
+  .details section {
+    padding: 2rem;
+  }
+
+  .rating {
+    padding: 1rem;
+  }
+
+}
